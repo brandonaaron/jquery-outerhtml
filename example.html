@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+	"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<title>jQuery outerHTML Snippet Example</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="jquery.outerHTML.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" charset="utf-8">
+			$(function() {
+				$('#outerHTML').bind('click', function() {
+					alert( $('div').outerHTML() );
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<h1>jQuery <code>outerHTML</code> Snippet Example</h1>
+		<p>Click to alert the outer html of the div below: <input type="button" id="outerHTML" value="outerHTML"></p>
+		<div>
+			<p>first paragraph</p>
+			<p>middle paragraph</p>
+			<p>last paragraph</p>
+		</div>
+	</body>
+</html>
