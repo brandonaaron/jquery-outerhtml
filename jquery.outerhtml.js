@@ -3,6 +3,9 @@
  * and GPL (http://www.opensource.org/licenses/gpl-license.php) licenses.
  */
 
-jQuery.fn.outerHTML = function() {
-	return $('<div>').append( this.eq(0).clone() ).html();
-};
+(function($) {  
+ // Returns whether or not a result set has results in it
+ $.fn.outerHTML = function() {
+   return $('<div>').append( this.eq(0).clone() ).html();
+ };
+})(jQuery);
