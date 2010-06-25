@@ -3,9 +3,16 @@
  * and GPL (http://www.opensource.org/licenses/gpl-license.php) licenses.
  */
 
-(function($) {  
- // Returns whether or not a result set has results in it
- $.fn.outerHTML = function() {
-   return $('<div>').append( this.eq(0).clone() ).html();
- };
+(function($){
+  var div;
+  
+  $.fn.outerHTML = function() {
+    var elem = this[0],
+      tmp;
+    
+    return !elem ? null
+      : typeof ( tmp = elem.outerHTML ) === 'string' ? tmp
+      : ( div = div || $('<div/>') ).html( this.eq(0).clone() ).html();
+  };
+  
 })(jQuery);
