@@ -2,7 +2,7 @@
   "name": "brandon-aaron-jquery-outerhtml-function",
   "version": "1.0.0",
   "authors": [
-    "Brandon Aaron <cowboy@rj3.net>"
+    "Brandon Aaron <brandon@aaron.sh>"
   ],
   "description": "Brandon Aaron's outerHTML() function for jQuery.",
   "main": "jquery.outerhtml.js",
