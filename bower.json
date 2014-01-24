@@ -1,0 +1,17 @@
+{
+  "name": "jquery-outerhtml",
+  "version": "1.0.0",
+  "authors": [
+    "Brandon Aaron <hello.brandon@aaron.sh>"
+  ],
+  "description": "Brandon Aaron's outerHTML() function for jQuery.",
+  "main": "jquery.outerhtml.js",
+  "keywords": [
+    "jquery",
+    "plugin",
+    "outerhtml"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/brandonaaron/jquery-outerhtml"
+}
+
